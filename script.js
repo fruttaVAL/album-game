@@ -38,7 +38,7 @@ const albums = [
     imageUrl: "images/yours truly.jpg",
   },
   //fix red and fearless names/ jpg
-  {
+  /*{
     title: "Red",
     artist: "Taylor Swift",
     imageUrl: "images/red.jpg",
@@ -47,11 +47,11 @@ const albums = [
     title: "Fearless",
     artist: "Taylor Swift",
     imageUrl: "images/fearless.jpg",
-  },
+  }, */
   {
     title: "Ctrl",
     artist: "SZA",
-    imageUrl: "images/cntrl.jpg",
+    imageUrl: "images/ctrl.jpg",
   },
   {
     title: "IGOR",
@@ -117,7 +117,7 @@ const albums = [
   {
     title: "Future Nostalgia",
     artist: "Dua Lipa",
-    imageUrl: "",
+    imageUrl: "images/future nostalgia.jpg",
   },
   {
     title: "Planet Her",
@@ -130,11 +130,12 @@ const albums = [
     imageUrl: "images/doris.jpg",
   },
   //fix taylors version
+  /*
   {
     title: "Speak Now (Taylor's Version)",
     artist: "Taylor Swift",
     imageUrl: "",
-  },
+  }, */
   {
     title: "Good Riddance",
     artist: "Gracie Abrams",
