@@ -33,10 +33,10 @@ body {
 .container {
   background-color: white;
   border-radius: 8px;
-  padding: 20px;
+  padding: 50px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
-  border: 2px solid #ccc; /* Add a border */
+  border: 2px solid #ccc;
 }
 
 /* title */
