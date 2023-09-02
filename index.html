@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Album Guessing Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-title">album game.</h1>
+    </header>
+
+    <div class="container">
+      <h1>Guess the Album!</h1>
+      <div id="album-container">
+        <img
+          id="album-cover"
+          src=""
+          alt="Album Cover"
+          width="400"
+          height="400"
+        />
+        <p class="album-details" id="album-details"></p>
+        <p class="message" id="message">Start guessing...</p>
+      </div>
+      <input type="text" id="guess-input" placeholder="Enter your guess..." />
+      <button id="submit-button">Submit Guess</button>
+      <section class="game-numbers">
+        <p class="tries">Tries: <span id="tries">3</span></p>
+        <p class="highscore">Highscore: <span id="highscore">0</span></p>
+        <p class="score">Score: <span id="score">0</span></p>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

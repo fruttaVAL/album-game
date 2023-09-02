@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* header */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* header title */
+.header-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+/* background color and center the content */
+body {
+  background-color: hsl(0, 0%, 100%);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* container */
+.container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border: 2px solid #ccc; /* Add a border */
+}
+
+/* title */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* input */
+#guess-input {
+  padding: 8px;
+  width: 200px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* submit button */
+#submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+/* submit button on hover */
+#submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* album details */
+.album-details {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* correct guess message */
+.message {
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+  margin-top: 10px;
+}
+
+/* dark mode (SOON) */
+/* Default styles for the switch */
