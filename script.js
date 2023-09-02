@@ -179,7 +179,7 @@ const albums = [
   {
     title: "Stranger in the Alps",
     artist: "Phoebe Bridgers",
-    imageUrl: "images/stranger in the alps.jpg",
+    imageUrl: "images/strangers in the alps.jpg",
   },
   {
     title: "the record",
